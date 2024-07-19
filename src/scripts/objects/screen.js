@@ -51,7 +51,7 @@ const screen = {
                                     <p>- Sem mensagem de commit<p>
                                 </li>`
             }
-        })
+        });
 
         if (user.events.length > 0) {
             this.userProfile.innerHTML += `<div class="events">
