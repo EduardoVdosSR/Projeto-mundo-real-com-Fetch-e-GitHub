@@ -152,7 +152,7 @@ main {
   transition: 0.3s ease-in-out;
 }
 
-.container .profile-data .repositories ul li a div{
+.container .profile-data .repositories ul li a .informations{
   margin-top: 10px;
   gap: 4px;
   display: flex;
@@ -160,7 +160,7 @@ main {
   color: white;
 }
 
-.container .profile-data .repositories ul li a div p{
+.container .profile-data .repositories ul li a .informations p{
   border-radius: 4px;
   padding: 3px;
   background-color: rgb(95,38,207);

@@ -17,7 +17,7 @@ const screen = {
         user.repositories.forEach(repo => repositoriesItens += `<li>
                 <a href="${repo.html_url}" target="_blank">
                     <h3>${repo.name}</h3>
-                    <div>
+                    <div class="informations">
                         <p>🍴 ${repo.forks}</p>
                         <p>⭐ ${repo.stargazers_count}</p>
                         <p>👀 ${repo.watchers}</p>
