@@ -30,7 +30,7 @@ const screen = {
         if (user.repositories.length > 0) {
             this.userProfile.innerHTML += `<div class="repositories section">
                                                <h2>Repositórios</h2>
-                                               <ul>${repositoriesItens}</ul>
+                                               <ul class="repo-list">${repositoriesItens}</ul>
                                            </div>`
         };
 
@@ -56,7 +56,7 @@ const screen = {
         if (user.events.length > 0) {
             this.userProfile.innerHTML += `<div class="events">
                                                <h2>Eventos</h2>
-                                               <ul>${eventsItens}</ul>
+                                               <ul class="event-list">${eventsItens}</ul>
                                            </div>`
         };
     },
