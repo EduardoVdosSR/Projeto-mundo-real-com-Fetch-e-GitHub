@@ -144,11 +144,12 @@ main {
 }
 
 .container .profile-data .repositories .repo-list li a {
-  padding: 20px;
-  border: 1px solid grey;
-  margin: 20px;
   display: block;
+  margin: 20px;
+  border: 1px solid grey;
   border-radius: 7px;
+  padding: 20px;
+  color: #000;
   transition: 0.3s ease-in-out;
 }
 
@@ -174,7 +175,7 @@ main {
 /* EVENTS */
 
 .container .profile-data .events h2{
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .container .profile-data .events .event-list{
